@@ -19,6 +19,3 @@ runMe: bin/main.exe
 
 clean:
 	rm -rf bin/main.exe  bin/*.o bin/main.dSYM pdfs/*.pdf
-
-valgrind:
-		valgrind ${VALGRIND_FLAGS} bin/main.exe
