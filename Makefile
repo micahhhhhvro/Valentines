@@ -1,5 +1,5 @@
 CPP_COMPILER = clang++
-CFLAGS = -g -Wall -fstandalone-debug
+CFLAGS = -g -Wall
 CPP_VERSION=c++17
 ENSCRIPT_FLAGS=-C -T 2 -p - -M Letter -Ecpp --color -fCourier8
 VALGRIND_FLAGS=-v --leak-check=yes --track-origins=yes --leak-check=full --show-leak-kinds=all
